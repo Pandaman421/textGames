@@ -1,6 +1,7 @@
 import random
 from guessNumber import *
 from printText import *
+from tictactoe import *
 
 '''
 def fancyPrint(string, speed=10):
@@ -19,7 +20,7 @@ def fancyInput(string, speed=10):
 def parseHighScores():
     return 0
 
-games = [guessTheNumber]
+games = [guessTheNumber, tictactoe]
 fancyPrint('Welcome to Andrew\'s python text games!', 5)
 fancyPrint('Here I have a wide variety of simple terminal based games for you!')
 print('')
